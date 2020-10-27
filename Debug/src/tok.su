@@ -1,0 +1,4 @@
+tok.c:30:14:nmea_calc_crc	0	static
+tok.c:41:5:nmea_atoi	32	static
+tok.c:84:8:nmea_atof	48	static
+tok.c:141:5:nmea_scanf	48	static

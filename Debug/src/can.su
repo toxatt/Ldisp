@@ -1,0 +1,15 @@
+can.c:155:6:CanInit	48	static
+can.c:222:11:PrepareMessage	8	static
+can.c:245:11:PrepareMessage_S6	4	static
+can.c:260:4:IsCanRxAvailable	8	static
+can.c:312:4:SendRequest	8	static
+can.c:324:4:Send_S6	8	static
+can.c:333:8:Get_D	0	static
+can.c:569:6:CAN_set_Deinit	0	static
+can.c:581:6:CAN_set_RX_Init	8	static
+can.c:594:6:CAN_set_answer_Init	16	static
+can.c:342:6:vCanTask	88	static
+can.c:621:9:PrepareData	24	static
+can.c:693:4:CAN_send_msg	16	static
+can.c:707:6:CAN_send_Timer	24	static
+can.c:825:6:USB_LP_CAN1_RX0_IRQHandler	24	static,ignoring_inline_asm

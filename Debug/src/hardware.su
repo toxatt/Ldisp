@@ -1,0 +1,6 @@
+hardware.c:71:6:pinMode	12	static
+hardware.c:88:6:pinLow	0	static
+hardware.c:13:6:Leds_Off	8	static
+hardware.c:94:6:pinHigh	0	static
+hardware.c:3:6:Led1_On	8	static
+hardware.c:8:6:Led2_On	8	static

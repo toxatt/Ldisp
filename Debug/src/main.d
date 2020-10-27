@@ -1,0 +1,139 @@
+src/main.o: ../src/main.c \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/CMSIS/device/stm32f10x.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/CMSIS/core/core_cm3.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/CMSIS/device/system_stm32f10x.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_conf.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_adc.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_bkp.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_can.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_cec.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_crc.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_dac.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_dbgmcu.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_dma.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_exti.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_flash.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_fsmc.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_gpio.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_i2c.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_iwdg.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_pwr.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_rcc.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_rtc.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_sdio.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_spi.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_tim.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_usart.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_wwdg.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/misc.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/Sysinit.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/main.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/FreeRTOS.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/FreeRTOSConfig.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/projdefs.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/portable.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/deprecated_definitions.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/portmacro.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/mpu_wrappers.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/task.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/list.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/can.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/queue.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/task.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/semphr.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/queue.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/hardware.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/Sysinit.h \
+ /media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/cmd.h
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/CMSIS/device/stm32f10x.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/CMSIS/core/core_cm3.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/CMSIS/device/system_stm32f10x.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_conf.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_adc.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_bkp.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_can.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_cec.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_crc.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_dac.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_dbgmcu.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_dma.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_exti.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_flash.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_fsmc.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_gpio.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_i2c.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_iwdg.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_pwr.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_rcc.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_rtc.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_sdio.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_spi.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_tim.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_usart.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/stm32f10x_wwdg.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/StdPeriph_Driver/inc/misc.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/Sysinit.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/main.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/FreeRTOS.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/FreeRTOSConfig.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/projdefs.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/portable.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/deprecated_definitions.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/portmacro.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/mpu_wrappers.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/task.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/list.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/can.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/queue.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/task.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/semphr.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/FreeRTOS/include/queue.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/hardware.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/Sysinit.h:
+
+/media/D/Electronika/Project/ARM/Ldisp/Firmware/Ldisp/inc/cmd.h:

@@ -1,0 +1,9 @@
+KS0108-STM32.c:31:6:GLCD_Delay	0	static,ignoring_inline_asm
+KS0108-STM32.c:43:6:GLCD_EnableController	8	static
+KS0108-STM32.c:54:6:GLCD_DisableController	8	static
+KS0108-STM32.c:65:15:GLCD_ReadStatus	16	static
+KS0108-STM32.c:88:6:GLCD_WriteCommand	24	static
+KS0108-STM32.c:114:15:GLCD_ReadData	16	static
+KS0108-STM32.c:138:6:GLCD_WriteData	16	static
+KS0108-STM32.c:167:6:GLCD_InitializePorts	0	static
+KS0108-STM32.c:187:15:GLCD_ReadByteFromROMMemory	0	static

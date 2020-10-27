@@ -1,0 +1,4 @@
+SysInit.c:293:6:InitGPIO	16	static
+SysInit.c:375:6:InitSPI	0	static
+SysInit.c:214:6:Init_sys	8	static
+SysInit.c:388:6:InitCAN	0	static

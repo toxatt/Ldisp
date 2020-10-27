@@ -1,0 +1,15 @@
+utility.c:7:7:NextToken	0	static
+utility.c:18:5:TokenSizeQuote	0	static
+utility.c:30:5:TokenSizeComma	0	static
+utility.c:42:5:TokenSize	0	static
+utility.c:54:7:TokenNextComma	0	static
+utility.c:67:7:TokenNext	0	static
+utility.c:79:7:FindTokenStartWith	16	static
+utility.c:92:7:FindToken	16	static
+utility.c:103:7:TokenBefore	16	static
+utility.c:117:7:CharReplace	4	static
+utility.c:246:10:GetCRC32	4	static
+utility.c:269:8:itoa	16	static
+utility.c:306:8:itoa16	16	static
+utility.c:343:8:strcpyEx	0	static
+utility.c:352:5:NmeaAddChecksum	0	static
